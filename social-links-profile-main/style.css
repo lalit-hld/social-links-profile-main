@@ -29,10 +29,15 @@ body{
     gap: 15px;
 }
 img{
-    display: block;
+    
     border-radius: 50%;
     width: 100px;
     
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h3{
     color: hsl(0, 0%, 100%);
@@ -55,6 +60,7 @@ h6{
     height: 40px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
+    
     
 }
 .p2:hover{
